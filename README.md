@@ -25,8 +25,8 @@
 1. Clone le projet depuis le dépôt GitHub :
 
    ```bash
-   git clone https://github.com/ton-utilisateur/filmhosting.git
-   cd filmhosting
+   git clone https://github.com/ton-utilisateur/film.git
+   cd film
    ```
    
 2. Installe les dépendances :
