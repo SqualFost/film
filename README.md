@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Film - Hébergement de Films
 
-## Getting Started
+**Film** est une plateforme de téléchargements de films (ils ont déjà été achetés tkt) avec **Next.js** et **ShadCN**. Ce site permet aux utilisateurs de télécharger, visualiser et gérer leurs films en ligne de manière fluide et rapide.
 
-First, run the development server:
+## Technologies Utilisées
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js** : Framework React pour le développement d'applications web côté serveur et côté client.
+- **ShadCN** : Librairie de composants UI pour la création d'interfaces modernes et réactives.
+- **Tailwind CSS** : Utilisé pour le style et la mise en page du site.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fonctionnalités
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Téléchargement de Films** : Permet aux utilisateurs de télécharger des films dans différents formats.
+- **Lecture en Streaming** : Visionnage en streaming avec un lecteur vidéo intégré.
+- **Gestion des Films** : Ajout, suppression et édition des films par les utilisateurs.
+- **Catégorisation** : Organisation des films par genre, année, pays, etc.
+- **Recherche Avancée** : Recherche par titre, genre, année, etc.
+- **Interface Utilisateur** : Une interface moderne et réactive grâce à ShadCN.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Étapes d'Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone le projet depuis le dépôt GitHub :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/ton-utilisateur/filmhosting.git
+   cd filmhosting
+   ```
+   
+2. Installe les dépendances :
 
-## Deploy on Vercel
+   ```
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Lancer le serveur de développement :
+   ```
+   npm run dev
+   ```
