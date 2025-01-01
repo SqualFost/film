@@ -15,13 +15,13 @@ export function Recherche() {
         <Input
           type="text"
           placeholder="Rechercher par titre..."
-          className="pl-4 pr-60 py-4 text-gray-300 rounded-lg bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-black"
+          className="pl-4 mr-[40vw] pr-[2vw] py-4 text-gray-300 rounded-lg  bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-black"
         />
-        <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+        <Search className="absolute right-3 top-1/2 transform -translate-y-1/2  text-gray-400" />
       </div>
 
       <select
-        className="py-2 px-3 text-gray-400 bg-zinc-900  rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
+        className="py-2 px-[1vw] text-gray-400 bg-zinc-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
         onChange={(e) => setSelectedYear(Number(e.target.value))}
       >
         <option value="">Année du film</option>
@@ -33,7 +33,7 @@ export function Recherche() {
       </select>
 
       <select
-        className="py-2 px-3 bg-zinc-900 text-gray-400  rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
+        className="py-2 px-[1vw] bg-zinc-900 text-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
         onChange={(e) => setSelectedType(e.target.value)}
       >
         <option value="">Type de film</option>
@@ -45,7 +45,7 @@ export function Recherche() {
       </select>
 
       <Button className="flex items-center justify-center w-10 h-10 bg-zinc-900 text-gray-400 rounded-full focus:outline-none focus:ring-2 focus:ring-black">
-        <Search className="h-4 w-4" />
+        <Search className="h-[2vw] w-[2vw]" />
       </Button>
     </div>
   )

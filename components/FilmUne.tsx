@@ -7,14 +7,8 @@ import { Carousel, CarouselContent, CarouselItem, CarouselApi } from "@/componen
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-type Movie = {
-  id: string;
-  title: string;
-  image: string;
-  description: string;
-}
-
 const movieTitles = ["Inception", "The Shawshank Redemption", "The Dark Knight", "Pulp Fiction", "Forrest Gump"]
+
 
 export function FilmUne() {
   const [api, setApi] = React.useState<CarouselApi>()
@@ -57,8 +51,8 @@ export function FilmUne() {
                       className="rounded-lg"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 rounded-lg">
-                      <h2 className="text-2xl font-bold text-white mb-2">{movie.title}</h2>
-                      <p className="text-white mb-4">{movie.description}</p>
+                      <h2 className="text-[2vw] font-bold text-white mb-2">{movie.title}</h2>
+                      <p className="text-[1vw] text-white mb-4">{movie.description}</p>
                       <Button variant="secondary">En savoir plus</Button>
                     </div>
                   </div>
